@@ -74,6 +74,37 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-card {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #eef3ff;
+  border: 1px solid #cfdafe;
+}
+
+.participants-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+.participants-card ul {
+  list-style: disc inside;
+  margin: 0;
+  padding-left: 18px;
+}
+
+.participants-card li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+  color: #2d3748;
+}
+
+.participants-empty {
+  margin: 0;
+  color: #4a5568;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
