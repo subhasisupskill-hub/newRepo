@@ -89,15 +89,44 @@ section h3 {
 }
 
 .participants-card ul {
-  list-style: disc inside;
+  list-style: none;
   margin: 0;
-  padding-left: 18px;
+  padding: 0;
 }
 
 .participants-card li {
-  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
   line-height: 1.4;
   color: #2d3748;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #d8e2fb;
+}
+
+.participants-card li span {
+  overflow-wrap: anywhere;
+}
+
+.participant-remove {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f8d7da;
+  color: #9b1c1c;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.participant-remove:hover {
+  background-color: #f1a7ae;
+  transform: scale(1.05);
 }
 
 .participants-empty {
